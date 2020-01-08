@@ -7,7 +7,15 @@
     </style>
 
     <style name="AppTheme.CustomTextView">
-        <item name="colorPrimary">#FFA726</item>
+        <item name="colorPrimary">@color/alternativePrimaryColor</item>
+    </style>
+
+    <style name="ButtonStyle" parent="AppTheme">
+        <item name="android:backgroundTint">@color/alternativeCustomButtonColor</item>
+    </style>
+
+    <style name="ButtonTheme" parent="AppTheme">
+        <item name="android:backgroundTint">@color/moreCustomButtonColor</item>
     </style>
 
 
