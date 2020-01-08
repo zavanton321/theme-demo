@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.DayNight.Base" parent="Theme.MaterialComponents" />
+
+    <style name="Theme.MyApp.Main" parent="Theme.DayNight.Base" >
+        <item name="android:background">@color/nightColor</item>
+    </style>
+
+</resources>
